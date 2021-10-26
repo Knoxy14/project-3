@@ -1,0 +1,35 @@
+.profilePicture, .notLoggedInPicture {
+    height: 60px;
+    width: auto;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.logoImage{
+    margin: 0 10px;
+}
+
+.loggedInNavAvatar{
+    display: flex;
+}
+
+.welcomeName{
+    margin: 22px 42px;
+}
+
+#userDropdown{
+    margin: -6px 0 0 -28px;
+}
+
+
+.logOutButton{
+    height: 100%;
+}
+
+@media (max-width: 991px) { 
+    .logOutButton{
+        margin-top: auto;
+        
+    }
+}
